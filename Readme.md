@@ -19,7 +19,7 @@ Use real-life data and apply dat science analysis to a business problem.
 ## Libraries
 > Padas, numpy,  json
 > matplotlib, searborn
-> sklearn, standarscaler, pca, kmeans
+> sklearn, standarscaler, pca, kmeans, kneed
 
 ## Analysis
 > Analyze the datasets to define the questions
@@ -28,13 +28,17 @@ Use real-life data and apply dat science analysis to a business problem.
 
 ## Insights & summary of results
 There are 2 relevant clusters, that convert most, is most profitable and works best
-- Users who have been in the program for 2 years, are over 40 years old and are used to receiving many offers and converting them (70%)  
-- High income ladies, do not receive many offers but those who do receive them convert (60%)
-Men, and especially young men, who are the majority group that has joined in recent years are not converting.
+- The users that are in the program since 2015 in the program and received more than 10 offers has better conversion (70%).
+- High income ladies, do not receive many offers but those who do receive them has better conversion, 60 %, than young men cluster.
 
+- The users without information about gender convert a 55%.
+
+
+- The clusters that convert the least , 30%, group the men who have just joined the program. In one cluster are the young men with less income and in another those who are a little older and have a little more income.  
 
 ## Post
 I wrote a Medium post as well. You can find the post
+https://ledaduelo.medium.com/starbucks-capstone-challenge-84e7bd21e883
 
 ## Files in the repository
  - Portfolio
@@ -45,5 +49,10 @@ I wrote a Medium post as well. You can find the post
 
 ## Acknowledgements
 //stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+//https://towardsdatascience.com/divide-and-conquer-segment-your-customers-using-rfm-analysis-68aee749adf6
+//https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html
+//https://es.wikipedia.org/wiki/K-medias
+//https://datascience.stackexchange.com/questions/22795/do-clustering-algorithms-need-feature-scaling-in-the-pre-processing-stage
+// https://medium.com/@dmitriy.kavyazin/principal-component-analysis-and-k-means-clustering-to-visualize-a-high-dimensional-dataset-577b2a7a5fe
 
 
